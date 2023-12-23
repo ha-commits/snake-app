@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100vh;
+    background: #414141;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+}
+
+#score{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#high-score{
+    color: rgb(163, 115, 207);
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#game-board{
+    display: grid;
+    grid-template-columns: repeat(20,20px);
+    grid-template-rows: repeat(20,20px);
+    margin: 5;
+}
+
+.game-border-1{
+    border: rgb(9, 69, 69) 10px solid;
+    border-radius: 26px;
+    box-shadow: inset 0 0 0 5px rgb(9, 69, 69);
+}
+
+.game-border-2{
+    border: rgb(9, 69, 69) 15px solid;
+    border-radius: 26px;
+    box-shadow: inset 0 0 0 8px rgb(9, 69, 69);
+}
+
+.game-border-3{
+    border: rgb(9, 69, 69) 15px solid;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 1px rgb(9, 69, 69);
+}
+
+.serpent{
+    border: green 2px dotted;
+    background: green;
+}
+
+.apple{
+    background: rgb(241, 53, 53);
+    border: rgb(244, 46, 20) 5px solid;
+}
+
+
